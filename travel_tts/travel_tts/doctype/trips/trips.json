@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "field:name1",
+ "creation": "2026-02-05 15:50:36.585053",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "details",
+  "date_of_the_trip",
+  "price_per_person",
+  "number_of_people",
+  "number_of_booked_places",
+  "cover_image_of_the_trip",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "date_of_the_trip",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date of the trip"
+  },
+  {
+   "fieldname": "number_of_people",
+   "fieldtype": "Int",
+   "label": "Number of people",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "number_of_booked_places",
+   "fieldtype": "Int",
+   "label": "Number of booked places",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "cover_image_of_the_trip",
+   "fieldtype": "Attach Image",
+   "label": "Cover Image of the trip"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active",
+   "read_only": 1
+  },
+  {
+   "fieldname": "price_per_person",
+   "fieldtype": "Currency",
+   "label": "Price per person"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-02-15 19:16:19.969254",
+ "modified_by": "Administrator",
+ "module": "Travel TTS",
+ "name": "Trips",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

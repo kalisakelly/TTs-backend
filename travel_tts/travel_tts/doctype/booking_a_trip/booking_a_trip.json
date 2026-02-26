@@ -1,38 +1,42 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-12-16 13:41:54.282416",
+ "creation": "2026-02-05 16:00:36.957482",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title",
-  "description",
-  "image"
+  "email",
+  "phone_number",
+  "trip"
  ],
  "fields": [
   {
-   "fieldname": "title",
+   "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Email"
   },
   {
-   "fieldname": "description",
+   "fieldname": "phone_number",
    "fieldtype": "Data",
-   "label": "Description"
+   "label": "Phone number"
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Attach Image",
-   "label": "Image"
+   "fieldname": "trip",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Trip ",
+   "options": "Trips"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-08 13:59:31.261732",
+ "modified": "2026-02-07 12:52:16.436271",
  "modified_by": "Administrator",
  "module": "Travel TTS",
- "name": "Gallery",
+ "name": "Booking a Trip",
  "owner": "Administrator",
  "permissions": [
   {
@@ -46,15 +50,6 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
-  },
-  {
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Guest",
-   "share": 1
   }
  ],
  "row_format": "Dynamic",

@@ -52,14 +52,15 @@
   },
   {
    "fieldname": "image",
-   "fieldtype": "Data",
-   "label": "Image "
+   "fieldtype": "Attach Image",
+   "label": "Image ",
+   "make_attachment_public": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-16 17:27:15.691626",
+ "modified": "2026-02-12 16:45:33.999133",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Tours",
