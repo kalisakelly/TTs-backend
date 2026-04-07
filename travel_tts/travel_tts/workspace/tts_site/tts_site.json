@@ -1,0 +1,86 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"9x9DfPfaM6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">TTS site</span>\",\"col\":12}},{\"id\":\"SH9KJn3rPx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gallery\",\"col\":3}},{\"id\":\"n5ND0d88SD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Services\",\"col\":3}},{\"id\":\"XiQaIOL2EA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"jhnQgfRADQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tours\",\"col\":3}}]",
+ "creation": "2026-04-07 18:23:20.300244",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "onboarding",
+ "idx": 0,
+ "indicator_color": "pink",
+ "is_hidden": 0,
+ "label": "TTS site",
+ "links": [],
+ "modified": "2026-04-07 18:33:28.073718",
+ "modified_by": "Administrator",
+ "module": "Travel TTS",
+ "name": "TTS site",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 40.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Gallery",
+   "link_to": "Gallery",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Trips",
+   "link_to": "Trips",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Services",
+   "link_to": "Services",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Tours",
+   "link_to": "Tours",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Booking a Trip",
+   "link_to": "Booking a Trip",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Features",
+   "link_to": "Features",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Destinations",
+   "link_to": "Destinations",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Blog",
+   "link_to": "Blog",
+   "type": "DocType"
+  }
+ ],
+ "title": "TTS site"
+}

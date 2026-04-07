@@ -29,7 +29,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-08 13:59:31.261732",
+ "modified": "2026-04-07 18:29:08.560661",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Gallery",
@@ -55,6 +55,18 @@
    "report": 1,
    "role": "Guest",
    "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "TTs manager",
+   "share": 1,
+   "write": 1
   }
  ],
  "row_format": "Dynamic",

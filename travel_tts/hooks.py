@@ -20,6 +20,22 @@ app_license = "mit"
 # 		"has_permission": "travel_tts.api.permission.has_app_permission"
 # 	}
 # ]
+fixtures = [
+    {
+        "dt":"Workspace",
+        "filters":{
+            "name":"TTS site",
+        }
+    },
+    {
+        "dt":"Role",
+        "filters":{
+            "name":"TTs manager", 
+        }
+    }
+    
+   
+]
 
 # Includes in <head>
 # ------------------
