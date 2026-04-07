@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"9x9DfPfaM6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">TTS site</span>\",\"col\":12}},{\"id\":\"SH9KJn3rPx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gallery\",\"col\":3}},{\"id\":\"n5ND0d88SD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Services\",\"col\":3}},{\"id\":\"XiQaIOL2EA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"jhnQgfRADQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tours\",\"col\":3}}]",
+ "content": "[{\"id\":\"9x9DfPfaM6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">TTS site</span>\",\"col\":12}},{\"id\":\"SH9KJn3rPx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gallery\",\"col\":3}},{\"id\":\"UCwl5fLP7T\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Booking a Trip\",\"col\":3}},{\"id\":\"n5ND0d88SD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Services\",\"col\":3}},{\"id\":\"XiQaIOL2EA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"jhnQgfRADQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tours\",\"col\":3}},{\"id\":\"yqXu46bmJe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Blog\",\"col\":3}},{\"id\":\"oZaKNX5Zy4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Destinations\",\"col\":3}}]",
  "creation": "2026-04-07 18:23:20.300244",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "TTS site",
  "links": [],
- "modified": "2026-04-07 18:33:28.073718",
+ "modified": "2026-04-07 18:44:00.773007",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "TTS site",
@@ -25,6 +25,22 @@
  "roles": [],
  "sequence_id": 40.0,
  "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Booking a Trip",
+   "link_to": "Booking a Trip",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Blog",
+   "link_to": "Blog",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Green",
    "doc_view": "List",
@@ -42,6 +58,14 @@
    "type": "DocType"
   },
   {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Destinations",
+   "link_to": "Destinations",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
    "color": "Yellow",
    "doc_view": "List",
    "label": "Services",
@@ -55,30 +79,6 @@
    "label": "Tours",
    "link_to": "Tours",
    "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Booking a Trip",
-   "link_to": "Booking a Trip",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Features",
-   "link_to": "Features",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Destinations",
-   "link_to": "Destinations",
-   "type": "DocType"
-  },
-  {
-   "doc_view": "List",
-   "label": "Blog",
-   "link_to": "Blog",
    "type": "DocType"
   }
  ],
