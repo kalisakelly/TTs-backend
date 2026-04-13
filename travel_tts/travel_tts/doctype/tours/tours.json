@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2025-12-16 16:45:02.195397",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -18,7 +19,8 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "location",
@@ -60,10 +62,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-07 18:28:54.095109",
+ "modified": "2026-04-13 21:44:20.622139",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Tours",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -1,77 +1,41 @@
 {
  "actions": [],
+ "allow_rename": 1,
  "autoname": "field:name1",
- "creation": "2026-02-05 15:50:36.585053",
+ "creation": "2026-04-13 20:03:17.642556",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "details",
-  "date_of_the_trip",
-  "price_per_person",
-  "number_of_people",
-  "number_of_booked_places",
-  "cover_image_of_the_trip",
-  "active"
+  "image",
+  "posted"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Name",
    "unique": 1
   },
   {
-   "fieldname": "details",
-   "fieldtype": "Long Text",
-   "label": "Details"
-  },
-  {
-   "fieldname": "date_of_the_trip",
-   "fieldtype": "Date",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Date of the trip"
-  },
-  {
-   "fieldname": "number_of_people",
-   "fieldtype": "Int",
-   "label": "Number of people",
-   "non_negative": 1
-  },
-  {
-   "fieldname": "number_of_booked_places",
-   "fieldtype": "Int",
-   "label": "Number of booked places",
-   "non_negative": 1
-  },
-  {
-   "fieldname": "cover_image_of_the_trip",
+   "fieldname": "image",
    "fieldtype": "Attach Image",
-   "label": "Cover Image of the trip"
+   "label": "Image"
   },
   {
    "default": "0",
-   "fieldname": "active",
+   "fieldname": "posted",
    "fieldtype": "Check",
-   "label": "Active"
-  },
-  {
-   "fieldname": "price_per_person",
-   "fieldtype": "Currency",
-   "label": "Price per person"
+   "label": "Posted"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-13 22:06:31.332409",
+ "modified": "2026-04-13 21:23:01.080303",
  "modified_by": "Administrator",
  "module": "Travel TTS",
- "name": "Trips",
+ "name": "Landing page image",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
@@ -94,7 +58,6 @@
    "read": 1,
    "report": 1,
    "role": "Guest",
-   "select": 1,
    "share": 1
   },
   {

@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"9x9DfPfaM6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">TTS site</span>\",\"col\":12}},{\"id\":\"SH9KJn3rPx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gallery\",\"col\":3}},{\"id\":\"UCwl5fLP7T\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Booking a Trip\",\"col\":3}},{\"id\":\"n5ND0d88SD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Services\",\"col\":3}},{\"id\":\"XiQaIOL2EA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"jhnQgfRADQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tours\",\"col\":3}},{\"id\":\"yqXu46bmJe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Blog\",\"col\":3}},{\"id\":\"oZaKNX5Zy4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Destinations\",\"col\":3}}]",
+ "content": "[{\"id\":\"9x9DfPfaM6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">TTS site</span>\",\"col\":12}},{\"id\":\"SH9KJn3rPx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gallery\",\"col\":3}},{\"id\":\"UCwl5fLP7T\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Booking a Trip\",\"col\":3}},{\"id\":\"n5ND0d88SD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Services\",\"col\":3}},{\"id\":\"XiQaIOL2EA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trips\",\"col\":3}},{\"id\":\"jhnQgfRADQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Itinerary\",\"col\":3}},{\"id\":\"yqXu46bmJe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Blog\",\"col\":3}},{\"id\":\"oZaKNX5Zy4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Destinations\",\"col\":3}}]",
  "creation": "2026-04-07 18:23:20.300244",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "TTS site",
  "links": [],
- "modified": "2026-04-07 18:44:00.773007",
+ "modified": "2026-04-13 21:46:38.909562",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "TTS site",
@@ -38,6 +38,14 @@
    "doc_view": "List",
    "label": "Blog",
    "link_to": "Blog",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Add Itinerary",
+   "link_to": "Tours",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -70,14 +78,6 @@
    "doc_view": "List",
    "label": "Services",
    "link_to": "Services",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Tours",
-   "link_to": "Tours",
    "stats_filter": "[]",
    "type": "DocType"
   }
