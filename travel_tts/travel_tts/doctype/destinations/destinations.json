@@ -32,6 +32,7 @@
   {
    "fieldname": "price",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Price"
   },
   {
@@ -47,14 +48,14 @@
   },
   {
    "fieldname": "image",
-   "fieldtype": "Data",
+   "fieldtype": "Attach Image",
    "label": "Image"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-07 18:30:08.374327",
+ "modified": "2026-04-20 21:46:47.915124",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Destinations",
