@@ -9,8 +9,6 @@
   "title",
   "location",
   "price",
-  "currency",
-  "duration",
   "rating_rctn",
   "pdf_doc",
   "image"
@@ -34,16 +32,6 @@
    "non_negative": 1
   },
   {
-   "fieldname": "currency",
-   "fieldtype": "Data",
-   "label": "Currency"
-  },
-  {
-   "fieldname": "duration",
-   "fieldtype": "Data",
-   "label": "Duration"
-  },
-  {
    "fieldname": "rating_rctn",
    "fieldtype": "Rating"
   },
@@ -62,7 +50,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-13 21:44:20.622139",
+ "modified": "2026-05-06 12:11:52.034517",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Tours",

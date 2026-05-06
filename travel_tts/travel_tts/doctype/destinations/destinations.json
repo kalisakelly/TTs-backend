@@ -7,7 +7,6 @@
  "field_order": [
   "title",
   "description",
-  "currency",
   "price",
   "location",
   "features",
@@ -23,11 +22,6 @@
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
-  },
-  {
-   "fieldname": "currency",
-   "fieldtype": "Data",
-   "label": "Currency"
   },
   {
    "fieldname": "price",
@@ -55,7 +49,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-20 21:46:47.915124",
+ "modified": "2026-05-06 12:12:15.638833",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Destinations",
