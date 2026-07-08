@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2026-07-08 11:08:11.017624",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "feedback_collected_section",
+  "name1",
+  "destination",
+  "message",
+  "rating",
+  "post"
+ ],
+ "fields": [
+  {
+   "fieldname": "feedback_collected_section",
+   "fieldtype": "Section Break",
+   "label": "Feedback Collected"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "in_list_view": 1,
+   "label": "Destination",
+   "reqd": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "in_list_view": 1,
+   "label": "Message",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Int",
+   "ignore_xss_filter": 1,
+   "in_list_view": 1,
+   "label": "Rating",
+   "reqd": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "post",
+   "fieldtype": "Check",
+   "label": "Post"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-08 11:20:54.074325",
+ "modified_by": "Administrator",
+ "module": "Travel TTS",
+ "name": "Feedback",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
