@@ -10,8 +10,8 @@
   "location",
   "price",
   "rating_rctn",
-  "pdf_doc",
-  "image"
+  "image",
+  "itinary_features"
  ],
  "fields": [
   {
@@ -36,21 +36,22 @@
    "fieldtype": "Rating"
   },
   {
-   "fieldname": "pdf_doc",
-   "fieldtype": "Attach",
-   "label": "Pdf doc"
-  },
-  {
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "label": "Image ",
    "make_attachment_public": 1
+  },
+  {
+   "fieldname": "itinary_features",
+   "fieldtype": "Table",
+   "label": "Itinary features",
+   "options": "Itinary Items"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-06 12:11:52.034517",
+ "modified": "2026-07-10 16:17:34.526162",
  "modified_by": "Administrator",
  "module": "Travel TTS",
  "name": "Tours",
